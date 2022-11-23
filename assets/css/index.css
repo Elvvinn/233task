@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#firstSection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#firstSection .header-image {
+  width: 200px;
+  height: 400px;
+}
+#firstSection .textim {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 600px;
+  margin-right: 700px;
+  margin-top: -70px;
+}
+#firstSection .textim .hbir {
+  font-size: 60px;
+  padding-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#firstSection .textim h4 {
+  font-size: 26px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#firstSection .textim .btn1 {
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  border-style: none;
+  margin-top: 135px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.navidiv {
+  display: flex;
+  justify-content: space-around;
+}
+.navidiv .alarim {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.navidiv a {
+  margin-top: 35px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: rgb(223, 219, 219);
+}
+.navidiv .logom {
+  margin-top: 30px;
+  width: 30%;
+  display: inline-block;
+  align-self: flex-start;
+}
+.navidiv .generalikon {
+  margin-top: 40px;
+  margin-right: 100px;
+  color: white;
+  width: 20%;
+  display: flex;
+  margin-left: 500px;
+  gap: 25px;
+  font-size: 30px;
+}
