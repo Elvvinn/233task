@@ -1,0 +1,32 @@
+.header {
+  .navmain {
+  }
+  .nav1 {
+    margin-right: 200px;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  .nav1 a {
+    text-decoration: none;
+    color: #2a2a2a;
+  }
+
+  .nav2 {
+    padding-top: 40px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav2 a {
+    margin-top: 60px;
+    text-decoration: none;
+    color: #2a2a2a;
+  }
+  .headerfoto img {
+    margin-left: 100px;
+    max-width: 1700px;
+  }
+}

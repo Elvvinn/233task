@@ -133,76 +133,30 @@ table {
   border-spacing: 0;
 }
 
-#firstSection {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-#firstSection .header-image {
-  width: 200px;
-  height: 400px;
-}
-#firstSection .textim {
-  color: white;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin-left: 600px;
-  margin-right: 700px;
-  margin-top: -70px;
-}
-#firstSection .textim .hbir {
-  font-size: 60px;
-  padding-bottom: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-#firstSection .textim h4 {
-  font-size: 26px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-#firstSection .textim .btn1 {
-  width: 200px;
-  height: 40px;
-  border-radius: 15px;
-  border-style: none;
-  margin-top: 135px;
-  background-color: blue;
-  color: white;
-  text-align: center;
-}
-
-.navidiv {
+.header .nav1 {
+  margin-right: 200px;
+  float: right;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin-top: 15px;
 }
-.navidiv .alarim {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-}
-.navidiv a {
-  margin-top: 35px;
+.header .nav1 a {
   text-decoration: none;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bold;
-  color: rgb(223, 219, 219);
+  color: #2a2a2a;
 }
-.navidiv .logom {
-  margin-top: 30px;
-  width: 30%;
-  display: inline-block;
-  align-self: flex-start;
-}
-.navidiv .generalikon {
-  margin-top: 40px;
-  margin-right: 100px;
-  color: white;
-  width: 20%;
+.header .nav2 {
+  padding-top: 40px;
+  margin-left: 180px;
   display: flex;
-  margin-left: 500px;
-  gap: 25px;
-  font-size: 30px;
+  justify-content: space-between;
+}
+.header .nav2 a {
+  margin-top: 60px;
+  text-decoration: none;
+  color: #2a2a2a;
+}
+.header .headerfoto img {
+  margin-left: 100px;
+  max-width: 1700px;
 }
